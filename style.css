@@ -30,12 +30,12 @@ text-align: center;
    text-decoration: none; color: white;}
 
 div#Tab a:hover {
-	color: #2b0b0b; 
+	color: #411; 
 	background-color: windowframe;
 }
 
 div#Tab a span  {
-display: block;
+display: none;
 position : absolute;
 top : 200px;
 margin : auto;
@@ -43,7 +43,6 @@ margin : auto;
 width:600px;
 height : 500px;
 z-index : 10;
-    display: none;
 background-color:white;
 
 }
@@ -51,8 +50,7 @@ background-color:white;
 div#Tab a:hover span {
 
 z-index : 1;
-    display : block;
-
+display: block 
 }
 
 .small {
@@ -62,6 +60,5 @@ border: 1px solid white;
     margin: 0 0 5px 5px;
     width: 50px;
 }
-
 
 
